@@ -17,7 +17,7 @@ What will you be getting from using the SDK?
 
 Good, Have fun!
 
-## Installation:
+## Installation
 
 Include the JS SDK on your page once before the `</head>` tag.
 The header tag needs to be loaded on each and every page, if you are generating your site content dynamicaly (using Angular's ng-view for example) contact our support for a tailor made solution support@apester.com and open a issue on github
@@ -26,8 +26,8 @@ The header tag needs to be loaded on each and every page, if you are generating 
 <html>
   <head>
     <title>My Site Title</title>
-
-    <script type="text/javascript" src="https://static.apester.com/js/sdk/latest/apester-sdk.js" async></script>
+    <script type="module" referrerpolicy="strict-origin-when-cross-origin" src="https://sdk.apester.com/web-sdk.core.min.js"></script>
+    <script nomodule referrerpolicy="strict-origin-when-cross-origin" src="https://sdk.apester.com/web-sdk.core.legacy.min.js" async></script>
   </head>
   <body>
     <!-- Put Editorial embedded interaction tag  -->
@@ -90,4 +90,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 [w3c]: http://www.w3schools.com/tags/att_script_async.asp
-[issue-tracker]: https://github.com/ApesterDevelopers/javascript-sdk/issues
+[issue-tracker]: https://github.com/apester-pub/javascript-sdk-doc/issues
